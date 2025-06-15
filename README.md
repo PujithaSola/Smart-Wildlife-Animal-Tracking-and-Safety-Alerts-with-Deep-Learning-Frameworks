@@ -11,12 +11,11 @@ The project uses datasets collected from Kaggle and web scraping tools, and appl
 
 ## 📂 Repository Contents
 
-* `YOLOv8n_Training.ipynb` — YOLOv8n object detection training code
-* `YOLOv8n_Testing.ipynb` — YOLOv8n testing & evaluation
-* `ResNet18_Training.ipynb` — ResNet18 image classification training code
-* `ResNet18_Testing.ipynb` — ResNet18 testing & evaluation
-* `Graphs/` — Folder containing result graphs (training loss, accuracy curves, confusion matrices)
-* `Test_Code/` — Code snippets to test models on sample images
+* `yolo-notebook.ipynb` — YOLOv8n object detection training and testing code
+* `resnet-notebook.ipynb` — ResNet18 image classification training and testing code
+* `results/` — Folder containing result graphs (training loss, accuracy curves, confusion matrices)
+* `test-yolo` — Code snippets to test models on sample images
+* `test-resnet` — Code snippets to test models on sample images
 
 ---
 
@@ -112,7 +111,7 @@ Structure your dataset as per the training code expectations.
   * Precision-Recall curves
   * F1-confidence curves
 
-You can explore these in the `Graphs/` folder.
+You can explore these in the `results/` folder.
 
 ---
 
